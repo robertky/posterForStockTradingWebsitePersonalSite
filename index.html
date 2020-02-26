@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<html>
+	<head>
+		<title>Visualize by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>The Stock Tracking Website</h1>
+						<h3>This was a capstone project worked on in me senior year of college.
+							I worked in a team of three and was the lead on the project. The website
+							has since been taken down for cost reasons, but below is information about it
+							and screenshots from when it was online.</h3>
+					</header>
+						<h2>Features:</h2>
+						<div>
+							<ul>
+								<li>Allows users to register for an account on the
+									website and maintain a list of stocks or ETFs that they
+									can access at any time.</li>
+								<li>
+									Live quotes are offered to the user on the main chart portfolio page.
+									The live stock prices are provided by IEX exchange.</li>
+								<li>
+									A history page allows the user to track the performance history of the
+									stock or ETF. The date the history page starts tracking the history of
+									the investment is based on the date the user enters the stock into the
+									system</li>
+								<li>A graph page allows the user to visually track the performance history
+									of any stock or ETF they are currently tracking. The chart page also
+									allows the user to customize the time frame the line chart covers.</li>
+								<li>A newsfeed page allows the user to see recent news about the stock or
+									ETF they are tracking. The user can see the headline on the webpage and
+									click on the links to go directly the news website.</li>
+							</ul>
+						</div>
+						<h2>How the Website was Built:</h2>
+						<div>
+							<ul>
+								<li>Front end of the website was designed using React/Javascript.</li>
+								<li>Backend was designed using Node.js/Express.</li>
+								<li>Database used to maintain user data was MongoDB.</li>
+								<li>API used to get stock data and live quotes was IEX Exchange API.</li>
+								<li>NewsFeed data was received using the NewFeed API.</li>
+								<li>Git/GitHub was used to share code among teammembers and to do Version Control.</li>
+								<li>Particles.js was used to provide the dynamic particle background. </li>
+							</ul>
+						</div>
+						<h2>User Map of the website:</h2>
+						<div>
+							<ul>
+								<li>First, either register or log in to the website. </li>
+								<li>
+									Once logged on, go to “Portfolio” and enter a Valid ticker
+									Symbol and shares to add data to the chart. If the market is open,
+									the price and Total will update with live data from IEX API.
+								</li>
+								<li>
+									Select “News” to go to the “News” page. Select a ticker
+									symbol from the dropdown to get news on that holding. The
+									dropdown is populated based on the holding on the “Portfolio”
+									page.
+								</li>
+								<li>
+									Select “Charts” to go to the “Line Chart” page. From there, select a
+									holding from the dropdown. Then, select dates you would be interested
+									in seeing. Note the dropdown is prepopulated with holdings from the “Portfolio”
+									page.
+								</li>
+								<li>
+									Select “History” to go to the “History” page. Once there, select one of your portfolio
+									holdings from the dropdown. After selecting this, you will be given historical prices
+									for the holding, starting with the date that you first added the holding to your list.
+								</li>
+							</ul>
+						</div>
+
+					</header>
+
+				<!-- Main -->
+					<section id="main">
+
+						<!-- Thumbnails -->
+							<section class="thumbnails">
+								<div>
+									<a href="images/fulls/01.jpg">
+										<img src="images/thumbs/01.jpg" alt="" />
+										<h3>Log In Page and Start Page</h3>
+									</a>
+									<a href="images/fulls/02.jpg">
+										<img src="images/thumbs/02.jpg" alt="" />
+										<h3>Registration Page</h3>
+									</a>
+								</div>
+								<div>
+									<a href="images/fulls/03.jpg">
+										<img src="images/thumbs/03.jpg" alt="" />
+										<h3>Page to enter stocks, view saved stocks, and view live data of the stocks.</h3>
+									</a>
+									<a href="images/fulls/04.jpg">
+										<img src="images/thumbs/04.jpg" alt="" />
+										<h3>News page that provided live news for saved stocks</h3>
+									</a>
+								</div>
+								<div>
+									<a href="images/fulls/05.jpg">
+										<img src="images/thumbs/05.jpg" alt="" />
+										<h3>Chart that showed stock price history and was adjustable.</h3>
+									</a>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>All rights reserved. Design: Kyle Roberts</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
